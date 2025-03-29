@@ -10,7 +10,7 @@
 
 - [Descrição do projeto](#descrição-do-projeto)
 
-- [Funcionalidades](#funcionalidades)
+- [Conteúdo do site](#conteudo)
 
 - [Aplicação](#aplicação)
 
@@ -31,27 +31,27 @@ vários outros problemas sociais atuais abordados no jogo para conscientizar o p
 uma sociedade melhor para todos a partir da conscientização, e incentivo do pensamento crítico.
 </p>
 
-## Funcionalidades
+## Conteúdo
 
-`Introdução do jogo: ` espaço responsável pela visão geral do jogo, responsável por informações como objetivos do jogo, categoria, breve resumo da história e chamada para ação
+- Introdução do jogo:  espaço responsável pela visão geral do jogo, responsável por informações como objetivos do jogo, categoria, breve resumo da história e chamada para ação
 
-`Lista de personagens:` Onde será possível acessar as informações sobre as personagens, como aparência, habilidades, história, características etc.
+- Lista de personagens: Onde será possível acessar as informações sobre as personagens, como aparência, habilidades, história, características etc.
 
-`Lista de mapas:` Galeria de fotos dos mapas desenvolvidos junto de uma breve descrição sobre cada um.
+- Lista de mapas: Galeria de fotos dos mapas desenvolvidos junto de uma breve descrição sobre cada um.
 
-`Conceito do jogo:` Apresentação mais detalhada do universo do jogo.
+- Conceito do jogo: Apresentação mais detalhada do universo do jogo.
 
-`Estratégias e mecânicas` Apresentação de como funcionará as mecânicas do jogo e sua estratégia.
+- Estratégias e mecânicas: Apresentação de como funcionará as mecânicas do jogo e sua estratégia.
 
-`Problemáticas sociais enfrentados:` Destaque dos problemas sociais que geraram a necessidade da proposta.
+- Problemáticas sociais enfrentados: Destaque dos problemas sociais que geraram a necessidade da proposta.
   
-`Lições educacionais e sociais:` Destaques dos ensinamentos e benefícios que o jogo pode oferecer para os jogadores e para a sociedade.
+- Lições educacionais e sociais: Destaques dos ensinamentos e benefícios que o jogo pode oferecer para os jogadores e para a sociedade.
   
-`Sobre o projeto:` Descrição do nosso projeto junto de seus objetivos.
+- Sobre o projeto: Descrição do nosso projeto junto de seus objetivos.
 
-`Sobre a equipe:` Apresentação da equipe e da rede COLMEIA.
+- Sobre a equipe: Apresentação da equipe e da rede COLMEIA.
 
-`Processo seletivo:` seção destinada a recrutar novas integrantes para o projeto.
+- Processo seletivo: seção destinada a recrutar novas integrantes para o projeto.
 
 
 ## Aplicação
