@@ -80,4 +80,4 @@ Você pode [acessar o código fonte do projeto](https://github.com/Jadmartins936
 ## Desenvolvedores
 
 | [<img src="https://avatars.githubusercontent.com/u/171989995?v=4" width=115><br><sub>Jad Martins</sub>](https://github.com/Jadmartins936?tab=repositories) |  [<img src="https://avatars.githubusercontent.com/u/104092561?v=4" width=115><br><sub>Bruna Aika</sub>](https://github.com/BrunaAika)  |  [<img src="https://avatars.githubusercontent.com/u/85859934?v=4" width=115><br><sub>Sabrina Cavalcante </sub>](https://github.com/Sabrinascq) |  [<img src="https://avatars.githubusercontent.com/u/205379588?v=4" width=115><br><sub>Liz Flower </sub>](https://github.com/lizflowerz)  
-| :---: | :---: 
+| :---: | :---: | :---: | :---: 
