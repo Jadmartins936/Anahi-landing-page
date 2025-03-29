@@ -1,4 +1,7 @@
-<img src="assets/icon.png" width="80"> Anahí
+<p>
+  <img src="assets/icon.png" width="80" style="vertical-align: middle;">
+  <strong>Anahí</strong>
+</p>
 
 <hr>
 
