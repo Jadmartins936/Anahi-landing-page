@@ -18,8 +18,6 @@
 
 - [Acesso ao projeto](#acesso-ao-projeto)
 
-- [Abrir e rodar o projeto](#abrir-e-rodar-o-projeto)
-
 - [Desenvolvedores](#desenvolvedores)
 
 ## Descrição do projeto 
@@ -80,5 +78,5 @@ Você pode [acessar o código fonte do projeto](https://github.com/Jadmartins936
 
 ## Desenvolvedores
 
-| [<img src="https://avatars.githubusercontent.com/u/171989995?v=4" width=115><br><sub>Jad </sub>](https://github.com/Jadmartins936?tab=repositories) |  [<img src="https://avatars.githubusercontent.com/u/38091359?v=4" width=115><br><sub>Clóvis Ribeiro Júnior</sub>](https://github.com/crovim)  |
+| [<img src="https://avatars.githubusercontent.com/u/171989995?v=4" width=115><br><sub>Jad </sub>](https://github.com/Jadmartins936?tab=repositories) |  [<img src="https://avatars.githubusercontent.com/u/104092561?v=4" width=115><br><sub>Bruna Aika</sub>]https://github.com/BrunaAika  |
 | :---: | :---: 
