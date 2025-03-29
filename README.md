@@ -1,4 +1,4 @@
-<img src="assets/icon.png" width="120" style="vertical-align: middle;">
+<img src="assets/icon.png" width="200" style="vertical-align: middle;">
 
 <hr>
 
