@@ -1,4 +1,4 @@
-![logo Anahí]<img src="assets/icon.png" width="50">
+<img src="assets/icon.png" width="80"> Anahí
 
 <hr>
 
