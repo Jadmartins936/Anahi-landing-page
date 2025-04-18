@@ -12,7 +12,7 @@
 
 - [Conteúdo do site](#conteudo)
 
-- [Aplicação](#aplicação)
+- [Protótipo](#prototipo)
 
 - [Ferramentas utilizadas](#ferramentas-utilizadas)
 
@@ -52,7 +52,7 @@ uma sociedade melhor para todos a partir da conscientização, e incentivo do pe
 - Processo seletivo: seção destinada a recrutar novas integrantes para o projeto.
 
 
-## Aplicação
+## Prototipo
 
 <div align="center">
 
