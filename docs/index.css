@@ -1,5 +1,5 @@
 :root {
-  /*Cores*/
+  /* Cores */
   --roxo-claro: #b84da6;
   --roxo-medio: #7732a6;
   --roxo-escuro: #210b56;
@@ -7,28 +7,40 @@
   --creme: #ffe9a9;
   --azul-claro: #93b1e3;
   --rosa: #f54e96;
-  /*Fonte*/
-  --fonte-pixel: 'Pixelify Sans', sans-serif;
+
+  /* Fonte */
+  --fonte-pixel: "Pixelify Sans", sans-serif;
+  --fonte-titulo: "Aladin", system-ui;
 }
 
-body{
+html, body {
   margin: 0;
+  padding: 0;
+  height: 100%;
   font-family: var(--fonte-pixel);
   overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
 }
 
-nav{
+main {
+  flex: 1;
+  z-index: 999;
+  background-color: #f54e96;
+  margin: 0 40px;
+}
+
+nav {
   background-color: var(--roxo-escuro);
-  
 }
 
-#icone-anahi-nav{
+#icone-anahi-nav {
   margin-top: -10px;
   width: 50px;
   height: 40px;
 }
 
-.conteudo-nav{
+.conteudo-nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -36,34 +48,34 @@ nav{
   padding: 10px;
 }
 
-ul{
+ul {
   display: flex;
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
-li{
+li {
   font-size: 1.2em;
   color: white;
   display: inline-block;
-  margin: 20px 16px
+  margin: 20px 16px;
 }
 
-li > a{
+li > a {
   display: flex;
   z-index: 1;
-  color: rgb(255, 255, 255);
+  color: white;
   text-decoration: none;
   transition: transform 0.2s ease;
 }
 
-li > a:hover{
+li > a:hover {
   text-decoration: underline;
   transform: translateY(-4px);
 }
 
-.botoes-nav{
+.botoes-nav {
   display: flex;
   gap: 10px;
   background-color: transparent;
@@ -76,48 +88,47 @@ li > a:hover{
 }
 
 .botoes-nav button img {
-  width: 28px; 
+  width: 28px;
   height: 28px;
   padding: 10px;
-  background-image: url('../artes-anahi/botoes-anahi/btn-branco-roxo-1.png');
+  background-image: url("../artes-anahi/botoes-anahi/btn-branco-roxo-1.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   border: none;
 }
 
-.background{
+.background {
   width: 100%;
   height: 90vh;
   background-color: #5e3ab4;
 }
-.nuvens{
+
+.nuvens {
   width: 100vw;
   height: 104vh;
-  background-image: url('../artes-anahi/background/nuvens.png');
+  background-image: url("../artes-anahi/background/nuvens.png");
   background-size: cover;
   background-position: top;
   z-index: 0;
   position: relative;
 }
 
-.conteudo-nuvens{
+.conteudo-nuvens {
   width: 100vw;
   height: 90%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center; 
-  
+  justify-content: center;
 }
 
-#logo{
+#logo {
   width: 420px;
   margin-bottom: 20px;
-  
 }
 
-#intro-nuvens{
+#intro-nuvens {
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.692);
   font-size: 1.1em;
   max-width: 720px;
@@ -127,8 +138,8 @@ li > a:hover{
   font-weight: 400;
 }
 
-.cta-button{
-  background: url('../artes-anahi/botoes-anahi/input-rosa-1.png.png')center;
+.cta-button {
+  background: url("../artes-anahi/botoes-anahi/input-rosa-1.png.png") center;
   background-size: cover;
   width: 200px;
   height: 60px;
@@ -140,78 +151,67 @@ li > a:hover{
   font-size: 14px;
   cursor: pointer;
   font-family: var(--fonte-pixel);
-
 }
 
 .grama {
-  position: relative; 
-  background-image: url('../artes-anahi/Textures16x16/5g-1.png');
+  position: relative;
+  background-image: url("../artes-anahi/Textures16x16/5g-1.png");
   background-size: 66px;
   z-index: 0;
   width: 100vw;
   height: 80vh;
-  margin-top: -40px; 
+  margin-top: -40px;
 }
 
 .alinhamento-flores-superior {
   position: absolute;
-  top: -80px;                       
+  top: -80px;
   width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
   z-index: 1;
-  pointer-events: none;         
-  padding: 0;              
+  pointer-events: none;
+  padding: 0;
 }
 
-.alinhamento-flores-superior img {
+.alinhamento-flores-superior img,
+.flores-inferiores img,
+#florprincipal {
+  max-height: 80px;
   height: auto;
-  max-height: 80px;             
   width: auto;
 }
 
 .flores-inferiores {
   position: absolute;
-  bottom: 0;                     
+  bottom: 0;
   width: 100%;
   display: flex;
-  justify-content: space-between; 
+  justify-content: space-between;
   align-items: flex-end;
   padding: 0;
   z-index: 2;
 }
 
-.flores-inferiores img {
-  max-height: 80px;               
-  height: auto;
-  width: auto;
-}
-
-#florprincipal{
+#florprincipal {
   position: absolute;
   bottom: 0;
-  left: 70%;          
-  max-height: 80px;
+  left: 70%;
   z-index: 3;
 }
 
-.card-funcionalidades{
-  position: absolute;
-  top:40%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  
-  width: auto;
-  height: auto; 
+.card-funcionalidades {
+  position: relative; /* Corrigido */
+  margin: 80px auto;
+  max-width: 600px;
 
-
-  background-size: contain; 
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
   background-color: #ffe9a9;
   border: 6px solid var(--roxo-claro);
-  box-shadow:  0 0 0 6px var(--rosa);
+  box-shadow: 0 0 0 6px var(--rosa);
   z-index: 1;
 
   padding: 20px;
@@ -220,25 +220,43 @@ li > a:hover{
   text-align: center;
 
   font-family: var(--fonte-pixel);
+}
 
-}
-.alinhamento-superior{
+.alinhamento-superior,
+.alinhamento-inferior {
   padding: 10px;
   align-items: center;
   display: flex;
 }
-.alinhamento-inferior{
-  padding: 10px;
-  align-items: center;
-  display: flex;
-}
-.item{
+
+.item {
   margin: 10px;
   width: 280px;
 }
-.item > img{
+
+.item > img {
   width: 40px;
   height: 40px;
 }
 
+section {
+  background-color: var(--mostarda);
+}
 
+h1, h2, h4, h5, h6 {
+  font-family: var(--fonte-titulo);
+  background: linear-gradient(to bottom, var(--roxo-claro), var(--rosa));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+  font-size: 2.5em;
+  font-weight: lighter;
+}
+
+footer {
+  background-color: var(--roxo-escuro);
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
