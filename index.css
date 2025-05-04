@@ -9,7 +9,7 @@
   --rosa: #f54e96;
 
   /* Fonte */
-  --fonte-pixel: "Pixelify Sans", sans-serif;
+  --fonte-pixel: "Pixelify Sans", sans-serif;;
   --fonte-titulo: "Aladin", system-ui;
 }
 
@@ -24,9 +24,7 @@ html, body {
   flex-direction: column;
 }
 
-body{
-  font-family: var(--fonte-pixel);
-}
+
 
 main {
   flex: 1;
