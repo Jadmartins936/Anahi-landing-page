@@ -13,7 +13,8 @@
   --fonte-titulo: "Aladin", system-ui;
 }
 
-html, body {
+html,
+body {
   margin: 0;
   padding: 0;
   height: 100%;
@@ -91,7 +92,7 @@ li > a:hover {
   width: 28px;
   height: 28px;
   padding: 10px;
-  background-image: url("../artes-anahi/botoes-anahi/btn-branco-roxo-1.png");
+  background-image: url("/artes-anahi/botoes-anahi/btn-branco-roxo-1.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -107,7 +108,7 @@ li > a:hover {
 .nuvens {
   width: 100vw;
   height: 104vh;
-  background-image: url("../artes-anahi/background/nuvens.png");
+  background-image: url("/artes-anahi/background/nuvens.png");
   background-size: cover;
   background-position: top;
   z-index: 0;
@@ -139,7 +140,7 @@ li > a:hover {
 }
 
 .cta-button {
-  background: url("../artes-anahi/botoes-anahi/input-rosa-1.png.png") center;
+  background: url("/artes-anahi/botoes-anahi/input-rosa-1.png.png") center;
   background-size: cover;
   width: 200px;
   height: 60px;
@@ -155,7 +156,7 @@ li > a:hover {
 
 .grama {
   position: relative;
-  background-image: url("../artes-anahi/Textures16x16/5g-1.png");
+  background-image: url("/artes-anahi/Textures16x16/5g-1.png");
   background-size: 66px;
   z-index: 0;
   width: 100vw;
@@ -243,7 +244,11 @@ section {
   background-color: var(--mostarda);
 }
 
-h1, h2, h4, h5, h6 {
+h1,
+h2,
+h4,
+h5,
+h6 {
   font-family: var(--fonte-titulo);
   background: linear-gradient(to bottom, var(--roxo-claro), var(--rosa));
   -webkit-background-clip: text;
