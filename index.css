@@ -9,12 +9,12 @@
   --rosa: #f54e96;
 
   /* Fonte */
-  --fonte-pixel: "Pixelify Sans", sans-serif;;
+  --fonte-pixel: "Pixelify Sans", sans-serif;
   --fonte-titulo: "Aladin", system-ui;
 }
 
-
-html, body {
+html,
+body {
   margin: 0;
   padding: 0;
   height: 100%;
@@ -24,12 +24,10 @@ html, body {
   flex-direction: column;
 }
 
-
-
 main {
   flex: 1;
   z-index: 999;
-  background-color: #f54e96;
+
   margin: 0 40px;
 }
 
@@ -162,8 +160,8 @@ li > a:hover {
   background-size: 66px;
   z-index: 0;
   width: 100vw;
-  height: 80vh;
-  margin-top: -40px;
+  height: 90vh;
+  margin-top: 70px;
 }
 
 .alinhamento-flores-superior {
@@ -205,9 +203,10 @@ li > a:hover {
 }
 
 .card-funcionalidades {
-  position: relative; /* Corrigido */
+  position: relative;
   margin: 80px auto;
   max-width: 600px;
+  max-height: 800px;
 
   background-size: contain;
   background-repeat: no-repeat;
@@ -217,7 +216,7 @@ li > a:hover {
   box-shadow: 0 0 0 6px var(--rosa);
   z-index: 1;
 
-  padding: 20px;
+  padding: 10px;
 
   align-items: center;
   text-align: center;
@@ -243,23 +242,203 @@ li > a:hover {
 }
 
 section {
-  background-color: var(--mostarda);
+
 }
 
-h1,
-h2,
-h4,
-h5,
-h6 {
+.conteudo-main-esquerda {
+  display: flex;
+  justify-content: space-between;
+}
+.conteudo-main-direita {
+  display: flex;
+  justify-content: space-between;
+
+}
+.textos-esquerda  {
+  height: 440px;
+  width: 50%;
+  font-size: 1.15em;
+  margin-left: 40px;
+
+}
+.textos-direita{
+  
+  height: 440px;
+  width: 50%;
+  font-size: 1.15em;
+  padding-right: 40px;
+  
+  
+}
+
+#herois{
+  padding: 20px;
+  width: 90%;
+  height: auto;
+  background-color: var(--creme);
+  border: 6px solid var(--mostarda);
+  margin: 20px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  }
+
+  .cards-herois {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+    width: 20%;
+    height: 247px;
+    z-index: 1;
+    background-image: url('artes-anahi/cards/borda-roxa-1.png\ \(1\).png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+
+  }
+  
+  .cards-herois > h1 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    text-align: center;
+    padding-top: 26px;
+  }
+  
+  .cards-herois > img {
+    width: auto; 
+    height: 100px; 
+  }
+
+ .herois-btn{
+  width: 60%;
+  height: 20%;
+  background-image: url('artes-anahi/inputs/input-rosa.png' );
+  margin: 10px 20px 40px 20px;
+  padding: 4px;
+  border: none;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center; 
+  cursor: pointer;
+  background-color: transparent;
+  font-family: var(--fonte-pixel);
+ }
+  
+#lista-licoes > ul{
+  color: #03000a;
+
+ }
+
+h1,h2,h4,h5,h6 {
   font-family: var(--fonte-titulo);
   background: linear-gradient(to bottom, var(--roxo-claro), var(--rosa));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
   color: transparent;
-  font-size: 2.5em;
+  font-size: 3em;
   font-weight: lighter;
 }
+.imagem-direita {
+  padding: 16px;
+  margin: 10px;
+  flex-direction: column;
+  align-items: end;
+  display: flex;
+  width: auto;
+
+}
+.imagem-direita > img {
+  margin: 10px;
+  width: 240px;
+  height: 240px;
+}
+
+.imagem-esquerda {
+  padding: 16px;
+  margin: 10px;
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+  width: 34%;
+}
+.imagem-esquerda > img {
+  margin: 10px;
+  width: 352px;
+  height: 256px;
+}
+
+
+.descricao-imagem {
+  width: 240px;
+  height: 80px;
+  background-image: url("artes-anahi/inputs/input-mostarda.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+
+.descricao-imagem > p {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+#img-estrategias{
+  padding-top: 15px;
+  height: 360px;
+  width: 360px;
+  margin-left: 50px;
+
+}
+#espada-imagem{
+  margin-top: 50px;
+  height: 400px;
+  width: 400px;
+  margin-left: 50px;
+}
+.conteudo-main-centro > p, .conteudo-main-centro > h2{
+display: flex;
+justify-content: center;
+
+}
+.subtitulo{
+  display: inline-block;
+}
+
+.contato-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: left;
+  padding: 40px;
+  
+}
+
+
+.contato-texto {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#forms{
+  background-color: var(--roxo-medio);
+  color: white;
+  padding: 10px;
+  width: 400px;
+}
+
+
 
 footer {
   background-color: var(--roxo-escuro);
